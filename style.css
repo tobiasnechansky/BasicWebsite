@@ -1,0 +1,17 @@
+html {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 2rem;
+    text-align: center;
+}
+
+header>p {
+    text-align: center;
+}
+
+h2>p {
+    font-style: italic;
+}
