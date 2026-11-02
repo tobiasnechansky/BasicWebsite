@@ -1,11 +1,23 @@
 html {
     font-family: sans-serif;
+    color:darkslategray;
+    background-color: ivory;
+    line-height: 1.5;
 }
 
-h1 {
-    color: darkblue;
-    font-size: 2rem;
+header{
+    text-align:center;
+}
+h1,
+h2 {
+    color: navy;
     text-align: center;
+}
+h1 {
+    font-size: 2rem;
+}
+h2{
+    t
 }
 
 header>p {
@@ -15,3 +27,4 @@ header>p {
 h2>p {
     font-style: italic;
 }
+
