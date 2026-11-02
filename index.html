@@ -9,103 +9,106 @@
 
     <body>
         <header>
+            <img src="logo.svg" alt="Logo">
             <h1>My Basic Website</h1>
             <p>Recreate this website using only what we learnt in units 1 to 3: a clean HTML structure and CSS rules built from element selectors, combinators and pseudo-classes. The whole header – including the logo – is centered.</p>
         </header>
         <main>
-            <section>
-                <h2>Text and Fonts</h2>
-                <p> This first paragraph after a level two heading is written in italics – just like the first paragraph after every other level two heading. </p>
-                <p>The whole page uses a font without serifs, darkslategray as text color and ivory as background color. The line height is 1.5.</p>
-                <p>Headings of level one and two are navy. Level two headings are centered and written in uppercase letters – but not in the HTML source,changing the look of text is the job of CSS!</p>
-                <p>Some words are <strong>strongly important</strong>: they are bold – as usual – and have a yellow background. Others are only <em>emphasized</em> and keep the default style of the browser.</p>
-                <h3>Links</h3>
-                <p> Links like this one to the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN CSS reference</a> are darkgreen and not underlined – even after they have been visited. When the mouse pointer hovers over a link, it is underlined and gets a lightgreen background
-                </p>
-            </section>
-            <section>
-                <h2>Lists</h2>
-                <p>All three kinds of lists appear on this page. Every bullet point and every number is crimson.</p>
-                <h3>Before You Start</h3>
-                <ul>
-                    <li>Watched units 1 to 3</li>
-                    <li>Installed WebStorm and two browsers</li>
-                    <li>Know how to validate HTML</li>
-                </ul>
-                <p> A list which directly follows a level three heading uses the provided check mark image as bullet point. </p>
-                <h3>Shopping List</h3>
-                <p> All other unordered lists use squares as bullet points. </p>
-                <ul>
-                    <li>Bread</li>
-                    <li>Milk</li>
-                    <li>Apples</li>
-                    <li>Chocolate (a lot of it)</li>
-                </ul>
-                <h3>Snack Countdown</h3>
-                <p>Ordered lists use uppercase Roman numbers. This one counts down from three to one – CSS cannot do that, but an HTML attribute can.</p>
-                <ol reversed>
-                    <li>Chips</li>
-                    <li>Chocolate</li>
-                    <li>Pizza</li>
-                </ol>
-                <h3>Glossary</h3>
-                <dl>
-                    <dt>HTML</dt>
-                    <dd>Structure and content of a web page</dd>
-                    <dt>CSS</dt>
-                    <dd>Presentation and design of a web page</dd>
-                    <dt>Selector</dt>
-                    <dd>Decides which elements a CSS rule applies to</dd>
-                </dl>
-                <p>Terms in description lists are bold</p>
-            </section>
-            <section>
-                <h3>Tables</h3>
-                <p>Tables are for tabular data – like the prices of our school buffet.</p>
-                <table>
-                    <caption> School Buffet </caption>
-                    <thead>
-                        <tr>
-                            <th>Snack</th>
-                            <th>Category</th>
-                            <th>Price (€)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Pretzel</td>
-                            <td>Bakery</td>
-                            <td>1.20</td>
-                        </tr>
-                        <tr>
-                            <td>Cheese roll</td>
-                            <td>Bakery</td>
-                            <td>2.40</td>
-                        </tr>
-                        <tr>
-                            <td>Apple</td>
-                            <td>Fruit</td>
-                            <td>0.80</td>
-                        </tr>
-                        <tr>
-                            <td>Pizza slice</td>
-                            <td>Hot food</td>
-                            <td>2.90</td>
-                        </tr>
-                        <tr>
-                            <td>Iced tea</td>
-                            <td>Drinks</td>
-                            <td>1.70</td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td colspan="2">Average price</td>
-                            <td>1.80</td>
-                        </tr>
-                    </tfoot>
-                </table>
-            </section>
+            <article>
+                <section>
+                    <h2>Text and Fonts</h2>
+                    <p> This first paragraph after a level two heading is written in italics – just like the first paragraph after every other level two heading. </p>
+                    <p>The whole page uses a font without serifs, darkslategray as text color and ivory as background color. The line height is 1.5.</p>
+                    <p>Headings of level one and two are navy. Level two headings are centered and written in uppercase letters – but not in the HTML source,changing the look of text is the job of CSS!</p>
+                    <p>Some words are <strong>strongly important</strong>: they are bold – as usual – and have a yellow background. Others are only <em>emphasized</em> and keep the default style of the browser.</p>
+                    <h3>Links</h3>
+                    <p> Links like this one to the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN CSS reference</a> are darkgreen and not underlined – even after they have been visited. When the mouse pointer hovers over a link, it is underlined and gets a lightgreen background
+                    </p>
+                </section>
+                <section>
+                    <h2>Lists</h2>
+                    <p>All three kinds of lists appear on this page. Every bullet point and every number is crimson.</p>
+                    <h3>Before You Start</h3>
+                    <ul>
+                        <li>Watched units 1 to 3</li>
+                        <li>Installed WebStorm and two browsers</li>
+                        <li>Know how to validate HTML</li>
+                    </ul>
+                    <p> A list which directly follows a level three heading uses the provided check mark image as bullet point. </p>
+                    <h3>Shopping List</h3>
+                    <p> All other unordered lists use squares as bullet points. </p>
+                    <ul>
+                        <li>Bread</li>
+                        <li>Milk</li>
+                        <li>Apples</li>
+                        <li>Chocolate (a lot of it)</li>
+                    </ul>
+                    <h3>Snack Countdown</h3>
+                    <p>Ordered lists use uppercase Roman numbers. This one counts down from three to one – CSS cannot do that, but an HTML attribute can.</p>
+                    <ol reversed>
+                        <li>Chips</li>
+                        <li>Chocolate</li>
+                        <li>Pizza</li>
+                    </ol>
+                    <h3>Glossary</h3>
+                    <dl>
+                        <dt>HTML</dt>
+                        <dd>Structure and content of a web page</dd>
+                        <dt>CSS</dt>
+                        <dd>Presentation and design of a web page</dd>
+                        <dt>Selector</dt>
+                        <dd>Decides which elements a CSS rule applies to</dd>
+                    </dl>
+                    <p>Terms in description lists are bold</p>
+                </section>
+                <section>
+                    <h2>Tables</h2>
+                    <p>Tables are for tabular data – like the prices of our school buffet.</p>
+                    <table>
+                        <caption> School Buffet </caption>
+                        <thead>
+                            <tr>
+                                <th>Snack</th>
+                                <th>Category</th>
+                                <th>Price (€)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pretzel</td>
+                                <td>Bakery</td>
+                                <td>1.20</td>
+                            </tr>
+                            <tr>
+                                <td>Cheese roll</td>
+                                <td>Bakery</td>
+                                <td>2.40</td>
+                            </tr>
+                            <tr>
+                                <td>Apple</td>
+                                <td>Fruit</td>
+                                <td>0.80</td>
+                            </tr>
+                            <tr>
+                                <td>Pizza slice</td>
+                                <td>Hot food</td>
+                                <td>2.90</td>
+                            </tr>
+                            <tr>
+                                <td>Iced tea</td>
+                                <td>Drinks</td>
+                                <td>1.70</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Average price</td>
+                                <td>1.80</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </section>
+            </article>
         </main>
         <footer>
             <p>The footer uses a small font size of 0.8rem and is centered. Made in WMC, 2nd grade.</p>
