@@ -46,6 +46,22 @@ a:hover {
     text-decoration: underline;
     background-color: lightgreen;
 }
-li{
+
+li {
+    list-style: square;
+}
+
+li::marker {
+    color: crimson;
+}
+
+h3+ul li {
     list-style-image: url("check.svg");
+}
+
+ol li{
+    list-style-type: upper-roman;
+}
+dt{
+    font-weight:bold;
 }
