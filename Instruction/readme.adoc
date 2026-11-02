@@ -1,0 +1,32 @@
+:nofooter:
+:icons: font
+
+= A Basic Website
+
+Create your very first website -- using only what we learnt in units 1 to 3.
+
+== What
+
+Take a look at the provided PDF and video, both show the website you have to build yourself -- one static, the other also shows the `hover` effects.
+
+Recreate this website _exactly_!
+
+WARNING: _Validate_ your website with the https://validator.w3.org[W3C validator] before handing it in!
+
+== How
+
+You will need two files:
+
+. `index.html`
+. `style.css`
+
+The content of the website describes how to format it.
+Use the two provided images `logo.svg` and `check.svg`.
+
+IMPORTANT: Use a proper HTML structure: `header`, `main` and `footer`, articles and sections, headings by rank, the right kind of list and a complete table with `caption`, `thead`, `tbody` and `tfoot`.
+
+IMPORTANT: Do _not_ use classes or ids -- element selectors, combinators (`>`, `+`, `~` and the descendant combinator) and pseudo-classes are all you need.
+
+CAUTION: Use relative values like `rem` for sizes -- the only exception is the `1px` border of the table cells.
+
+TIP: Don't try to add space between the table borders and the text -- that will be a topic of unit 04.
