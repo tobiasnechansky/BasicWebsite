@@ -59,9 +59,39 @@ h3+ul li {
     list-style-image: url("check.svg");
 }
 
-ol li{
+ol li {
     list-style-type: upper-roman;
 }
-dt{
-    font-weight:bold;
+
+dt {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+thead {
+    background-color: navy;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tbody tr:hover {
+    background-color: lightblue;
+}
+
+footer p {
+    font-size: 0.8rem;
+    text-align: center;
 }
